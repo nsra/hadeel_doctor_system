@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <title>DrSaver</title>
+    <link rel="shortcut icon" href="../assets/img/doctor.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+    <link rel="stylesheet" href="../assets/css/style.css" type="text/css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@700&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+</head>
+<body>
+  
+    <!--header-->
+    <div class="header" style=" background-color: #707070;">
+         <div class="container" >
+<div class="header-content">
+    <div class="logo">
+        <img src=" ../assets/img/l2.png"  alt="logo image" draggable="false">
+        <b>Dr.saver</b>
+     </div>
+       <ul class="nav">
+         <li><a href="#" class="active">Home</a></li>
+         <li><a href="#" >Consultation</a></li>
+           <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Articles
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="#">Action</a>
+              <a class="dropdown-item" href="#">Another action</a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="#">Something else here</a>
+            </div>
+          </li>
+         <li><a href="#"class="icon fa fa-search fa-2x" >Search</a></li>
+
+ <li><a href="#"class="icon fa fa-bell" >  </a></li>
+          <li><a href="#"class="icon fa fa-user fa-2x" > </a></li>
+      
+
+   
+            
+      
+
+     </ul>
+     <div class="clear"></div>
+</div>
+  </div>
+    </div>
+     <!--profile section-->
+     <div class="about pd-y"></div>
+     <aside id="slide-out" class="sidebar white fixed">
+        <div class="side-nav-wrapper">
+            <div class="sidebar-profile">
+                <div class="sidebar-profile-image">
+                    <img src="../assets/img/pro.png" class="circle" alt="">
+                </div>
+                <div class="sidebar-profile-info">
+             
+                </div>
+            </div>
+
+        <ul class="sidebar-menu collapsible collapsible-accordion" data-collapsible="accordion">
+
+<li class="no-padding"><a class="waves-effect waves-grey" href="">full name</a></li>
+<li class="no-padding"><a class="waves-effect waves-grey" href="">City</a></li>
+<span>Edit</span>
+<hr>
+<img src="../assets/img/BG.png" alt="">
+<br>
+<span>Complete Your Medical Record</span>  
+          <li class="no-padding">
+                        <a class="waves-effect waves-grey" href="">LOG OUT</a>
+                    </li>
+
+
+        </ul>
+ 
+        </div>
+    </aside>
+
+       
+        <div class="row">
+        <br>
+            <div class="col s12">
+           
+            </div>
+            <div class="col s12 m12 l6">
+                <div class="card">
+                    <div class="card-content">
+                           <div  class="row" style="background-color: #D8EAE6; width: 100%;margin-left: 0;padding: 10px;">
+                            <ul class="nav" >  
+                                 
+                            <li><a href="#" >Personal Profile</a></li>
+                            <li><a href="#"style="color: #000; margin-left: 15px;" >Medical Record</a></li>
+ </ul>
+                            </div>   <form id="example-form" method="post" name="updatemp">
+                      
+                                <section>
+                                    <div class="wizard-content">
+                                        <div class="row">
+                                            <div class="col m6">
+                                                <div class="row">
+
+
+<div class="input-field col m6 s12">
+<label for="firstName">First name</label>
+<input id="firstName" name="firstName"  "  type="text" required>
+</div>
+
+<div class="input-field col m6 s12">
+<label for="lastName">Last name </label>
+<input id="lastName" name="lastName" value="" type="text" autocomplete="off" required>
+</div>
+
+<div class="input-field">
+
+<label for="userName">Username </label>
+<input id="userName" name="userName" value="" type="text" autocomplete="off" required> 
+</div>
+
+<div class="input-field col s12">
+<label for="email">Email</label>
+<input  name="email" type="email" id="email" value=" " readonly autocomplete="off" required>
+<span id="emailid-availability" style="font-size:12px;"></span> 
+</div>
+
+<div class="input-field col s12">
+<label for="phone">Mobile number</label>
+<input id="phone" name="mobileno" type="tel" value=" " maxlength="10" autocomplete="off" required>
+</div>
+
+</div>
+</div>
+                                            
+<div class="col m6">
+<div class="row">
+<div class="input-field col m6 s12">
+<select  name="gender" autocomplete="off">
+<option value=""></option>                                          
+<option value="Male">Male</option>
+<option value="Female">Female</option>
+
+</select>
+</div>
+<label for="birthdate">Date of Birth</label>
+<div class="input-field col m6 s12">
+
+<input id="birthdate" name="dob"  class="datepicker" value="" >
+</div>
+
+
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </section>
+                             
+                            
+                                </section>
+                            </div>
+                        </form>   
+             <div class="page-title" style="  padding-left: 300px;   font-size: 17px;">Change Password</div>          
+               <div class="row">
+                   
+                        <form class="col s12" name="chngpwd" method="post">
+                                   
+                                <div class="row">
+                                    <div class="input-field col s12"> 
+                                     
+<input id="password" type="password" placeholder="Enter Old Password" style="width:95%;padding-top:40px;margin-left:30px;border:none;border-bottom:1px solid gray;padding-bottom:8px;outline:none"  class="validate" autocomplete="off" name="password"  required>
+                                      
+                                    </div>
+
+<div class="input-field col s12"> 
+       
+<input id="password" type="password" placeholder="Enter New Password"  name="newpassword" class="validate" style="width:95%;padding-top:40px;margin-left:30px;border:none;border-bottom:1px solid gray;padding-bottom:8px;margin-top:20px;outline:none" autocomplete="off" required>
+                             
+                                    </div>
+
+<div class="input-field col s12"> 
+
+<input id="password" type="password"placeholder="Enter Confirm Password" name="confirmpassword" class="validate" autocomplete="off"style="width:95%;padding-top:40px;margin-left:30px;border:none;border-bottom:1px solid gray;padding-bottom:8px;margin-top:20px;outline:none" required>
+
+</div>
+<br>
+<br>
+<div class="input-field col s12">
+<center><button type="submit" name="change" style="padding:10px;color:#fff;margin-left:20px;width:100px;border:none;text-transform:uppercase" class="waves-effect waves-light btn indigo m-b-xs" onclick="">Save</button></center>
+
+</div>
+
+
+
+
+                                </div>
+                               
+                            </form>
+                        </div>
+                    </div>
+                </div>
+             
+     
+           
+            </div>
+        
+        </div>
+    </main>
+ 
+<div class="left-sidebar-hover"></div>
+
+ 
+   
+
+    <!--footer section-->
+<footer class="footer">
+    <div class="footer__addr">
+      <h1 class="footer__logo">Dr.saver</h1>
+          
+        
+    </div>
+    
+    <ul class="footer__nav">
+      <li class="nav__item">
+        <h2 class="nav__title">Menu</h2>
+  
+        <ul class="nav__ul">
+          <li>
+            <a href="#">Home</a>
+          </li>
+  
+          <li>
+            <a href="#">Consultation</a>
+          </li>
+              
+          <li>
+            <a href="#">Articles</a>
+          </li>
+        </ul>
+      </li>
+       
+      <li class="nav__item">
+        <h2 class="nav__title">Legal</h2>
+        
+        <ul class="nav__ul">
+          <li>
+            <a href="#">Privacy Policy</a>
+          </li>
+          
+          <li>
+            <a href="#">Terms of Use</a>
+          </li>
+          
+          <li>
+            <a href="#">Sitemap</a>
+          </li>
+        </ul>
+      </li>
+    </ul>
+    <div class="row">
+        
+        <div class="  col-lg-5 ">
+
+            <div class="row float-left">
+                <div class="socialItem">
+                    <i class="fab fa-facebook-f"></i>
+                </div>
+                <div class="socialItem">
+                    <i class="fab fa-instagram"></i>
+                </div>
+                <div class="socialItem">
+                    <i class="fab fa-twitter"></i>
+                </div>
+
+
+            </div>
+        </div>
+    </div>
+    <div class="legal">
+      <p> &copy; copyright 2022 All rights reserved.</p>
+      
+      <div class="legal__links">
+        <span>Made with <span class="heart">♥</span> hadeel&nada</span>
+      </div>
+      
+    </div>
+  </footer>
+</body>
+</html>
